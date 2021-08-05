@@ -6,8 +6,7 @@ license = "MPL-2.0"
 authors = ["ㄗㄠˋ ㄑㄧˊ <tsao-chi@the-lingo.org>"]
 repository = "https://github.com/tsao-chi/parameter.rs"
 description = "parameter.rs: dynamic binding - inspired by parameter of Scheme"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+documentation = "https://docs.rs/parameter"
 
 [dependencies]
 thread_local = "1.1.3"
