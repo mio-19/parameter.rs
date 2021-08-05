@@ -1,6 +1,6 @@
 [package]
 name = "parameter"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2018"
 license = "MPL-2.0"
 authors = ["ㄗㄠˋ ㄑㄧˊ <tsao-chi@the-lingo.org>"]
@@ -12,3 +12,4 @@ description = "parameter.rs: dynamic binding - inspired by parameter of Scheme"
 [dependencies]
 thread_local = "1.1.3"
 arc-swap = "1.3.0"
+owning_ref = "0.4.1"
