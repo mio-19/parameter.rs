@@ -1,7 +1,9 @@
+#![no_std] // This library doesn't require std, but its dependencies do
+extern crate alloc;
 use thread_local::ThreadLocal;
-use std::cell::{RefCell};
+use core::cell::RefCell;
 use arc_swap::ArcSwap;
-use std::sync::Arc;
+use alloc::sync::Arc;
 use owning_ref::ArcRef;
 
 pub struct Parameter<T: Send + Sync> {
